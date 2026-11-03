@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sitio personal de Julián Navarrete. Próximamente: perfil, habilidades y proyectos.">
+<title>Julián Navarrete — Sitio personal</title>
+<style>
+:root{color-scheme:light;--ink:#172d2b;--muted:#566660;--paper:#f4f3ed;--line:#d8ddd4;--accent:#236a52}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+.wrap{max-width:1100px;margin:auto;padding:32px clamp(24px,5vw,64px)}
+header{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line);padding-bottom:24px}
+.monogram{font-weight:800;font-size:24px;letter-spacing:-1px}a{color:var(--accent);text-underline-offset:5px}a:focus-visible{outline:3px solid var(--accent);outline-offset:6px}
+main{padding:85px 0 70px}.label{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(48px,8vw,88px);line-height:1.05;letter-spacing:-.06em;font-weight:650;max-width:850px;margin:24px 0}
+.intro{font-size:clamp(18px,2.3vw,23px);color:var(--muted);max-width:630px;margin-bottom:34px}
+.status{display:inline-flex;align-items:center;gap:10px;font-size:14px;border:1px solid var(--line);border-radius:30px;padding:9px 16px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.sections{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:75px;border-top:1px solid var(--line);padding-top:28px}
+section span{color:var(--accent);font-size:13px}h2{font-size:20px;font-weight:600;margin:12px 0 6px}section p{color:var(--muted);font-size:15px;margin:0;max-width:260px}
+footer{border-top:1px solid var(--line);padding:24px 0;font-size:13px;color:var(--muted)}
+@media(max-width:650px){main{padding-top:58px}.sections{grid-template-columns:1fr;gap:28px;margin-top:50px}h1{letter-spacing:-.045em}header a{font-size:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="monogram" aria-label="Julián Navarrete">JN.</div><a href="https://github.com/JulianNavarrete">Mi GitHub ↗</a></header>
+<main>
+<p class="label">Sitio personal</p>
+<h1>Julián<br>Navarrete.</h1>
+<p class="intro">Este será mi espacio para compartir quién soy, mis habilidades y los proyectos en los que trabajo.</p>
+<div class="status"><span class="dot" aria-hidden="true"></span>Sitio en preparación</div>
+<div class="sections" aria-label="Próximamente en este sitio">
+<section><span>01 / PERFIL</span><h2>Sobre mí</h2><p>Mi recorrido, mis intereses y lo que me gustaría construir.</p></section>
+<section><span>02 / HABILIDADES</span><h2>Lo que hago</h2><p>Un espacio para presentar mis conocimientos y herramientas.</p></section>
+<section><span>03 / PROYECTOS</span><h2>En la práctica</h2><p>Una selección de trabajos y experiencias para compartir.</p></section>
+</div>
+</main>
+<footer>Julián Navarrete · Sitio personal en preparación.</footer>
+</div>
+</body>
+</html>
